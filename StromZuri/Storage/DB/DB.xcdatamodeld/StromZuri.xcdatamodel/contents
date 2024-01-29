@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="StationEntity" representedClassName="StationEntity" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="chargingPower" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="chargingPowerDesc" optional="YES" attributeType="String"/>
+        <attribute name="coordinatesLat" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="coordinatesLon" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="hotlinePhoneNumber" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="lastUpdate" attributeType="String"/>
+        <attribute name="openingTimes" optional="YES" attributeType="String"/>
+        <attribute name="stationName" optional="YES" attributeType="String"/>
+    </entity>
+</model>

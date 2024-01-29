@@ -1,0 +1,162 @@
+{
+    "EVSEData": [
+        { "EVSEDataRecord": [
+            {
+                "AccessibilityLocation": "OnStreet",
+                "Address": {
+                    "HouseNum": "0",
+                    "TimeZone": "UTC+01:00",
+                    "City": "Oberwil",
+                    "Country": "CHE",
+                    "PostalCode": "0",
+                    "Street": "Mühlemattstrasse 34",
+                    "Floor": null,
+                    "Region": null,
+                    "ParkingSpot": null,
+                    "ParkingFacility": null
+                },
+                "AuthenticationModes": [
+                    "NFC RFID Classic",
+                    "REMOTE"
+                ],
+                "CalibrationLawDataAvailability": "Not Available",
+                "ChargingFacilities": [
+                    {
+                        "power": 22,
+                        "powertype": "AC_3_PHASE"
+                    }
+                ],
+                "ChargingStationNames": [
+                    {
+                        "lang": "de",
+                        "value": "Energie 360° Coop Oberwil Mühlematt"
+                    }
+                ],
+                "DynamicInfoAvailable": "true",
+                "HotlinePhoneNumber": "+41713881150",
+                "HubOperatorID": "CH*SWISSCHARGE",
+                "IsHubjectCompatible": true,
+                "IsOpen24Hours": true,
+                "PaymentOptions": [
+                    "Direct"
+                ],
+                "Plugs": [
+                    "Type 2 Outlet"
+                ],
+                "RenewableEnergy": false,
+                "ValueAddedServices": [
+                    "None"
+                ],
+                "deltaType": "insert",
+                "Accessibility": "Free publicly accessible",
+                "ChargingStationId": "CH*SWIEE117082",
+                "GeoCoordinates": {
+                    "Google": "47.508007 7.5533179"
+                },
+                "lastUpdate": "2024-01-28T03:15:10.667Z",
+                "EvseID": "CH*SWIEE117078",
+                "ClearinghouseID": null,
+                "OpeningTimes": null,
+                "GeoChargingPointEntrance": {
+                    "Google": "None None"
+                },
+                "ChargingStationLocationReference": null,
+                "EnergySource": null,
+                "EnvironmentalImpact": null,
+                "LocationImage": null,
+                "SuboperatorName": null,
+                "MaxCapacity": null,
+                "AdditionalInfo": null,
+                "ChargingPoolID": null,
+                "DynamicPowerLevel": null,
+                "HardwareManufacturer": null
+            },
+            {
+                "Accessibility": "Free publicly accessible",
+                "Address": {
+                    "City": "Vandoeuvres",
+                    "Country": "CHE",
+                    "Street": "Rte de Choulex",
+                    "HouseNum": "1",
+                    "PostalCode": "1253",
+                    "TimeZone": "UTC+01:00",
+                    "Floor": null,
+                    "Region": null,
+                    "ParkingSpot": null,
+                    "ParkingFacility": null
+                },
+                "DynamicInfoAvailable": "true",
+                "EvseID": "CHEVPE105",
+                "GeoCoordinates": {
+                    "Google": "46.222434 6.203629"
+                },
+                "HotlinePhoneNumber": "+41582219660",
+                "IsHubjectCompatible": true,
+                "IsOpen24Hours": true,
+                "AuthenticationModes": [
+                    "REMOTE",
+                    "NFC RFID Classic",
+                    "NFC RFID DESFire"
+                ],
+                "ChargingFacilities": [
+                    {
+                        "Amperage": 16,
+                        "Voltage": 230,
+                        "power": 3.7,
+                        "powertype": "AC_1_PHASE"
+                    },
+                    {
+                        "Amperage": 32,
+                        "Voltage": 400,
+                        "power": 22.0,
+                        "powertype": "AC_3_PHASE"
+                    },
+                    {
+                        "Amperage": 16,
+                        "Voltage": 230,
+                        "power": 3.7,
+                        "powertype": "AC_1_PHASE"
+                    }
+                ],
+                "ChargingStationId": "100",
+                "PaymentOptions": [
+                    "Contract"
+                ],
+                "Plugs": [
+                    "Type 1 Connector (Cable Attached)",
+                    "Type 2 Connector (Cable Attached)",
+                    "Type J Swiss Standard"
+                ],
+                "ValueAddedServices": [
+                    "MaximumPowerCharging"
+                ],
+                "ChargingStationNames": {
+                    "value": "Parking Vandoeuvres - N2 - 01",
+                    "lang": "en"
+                },
+                "RenewableEnergy": false,
+                "CalibrationLawDataAvailability": "Not Available",
+                "ClearinghouseID": null,
+                "OpeningTimes": null,
+                "GeoChargingPointEntrance": {
+                    "Google": "None None"
+                },
+                "ChargingStationLocationReference": null,
+                "EnergySource": null,
+                "EnvironmentalImpact": null,
+                "LocationImage": null,
+                "SuboperatorName": null,
+                "MaxCapacity": null,
+                "AdditionalInfo": null,
+                "ChargingPoolID": null,
+                "DynamicPowerLevel": null,
+                "HardwareManufacturer": null,
+                "HubOperatorID": null,
+                "AccessibilityLocation": null
+            },
+        ],
+            "OperatorID": "CH*SWISSCHARGE",
+            "OperatorName": "Swisscharge"
+        },
+    ],
+}

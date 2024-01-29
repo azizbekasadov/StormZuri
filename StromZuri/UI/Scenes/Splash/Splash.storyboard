@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="b49-63-Wji">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Medium.ttf">
+            <string>Inter-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="kYC-tu-479">
+            <objects>
+                <viewController id="b49-63-Wji" customClass="SplashViewController" customModule="StromZuri" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z9p-7D-HDY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash/app_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Axu-L9-ZJp">
+                                <rect key="frame" x="106.66666666666669" y="336" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="ZIO-j4-xMD"/>
+                                    <constraint firstAttribute="height" constant="180" id="asi-lx-crq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Azizbek Asadov ©" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qD7-d2-SpB">
+                                <rect key="frame" x="134.66666666666666" y="771" width="123.99999999999997" height="17"/>
+                                <fontDescription key="fontDescription" name="Inter-Medium" family="Inter" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="3mY-PX-80L">
+                                <rect key="frame" x="178" y="714" width="37" height="37"/>
+                                <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3qT-qz-JOn"/>
+                        <color key="backgroundColor" red="0.10980392160000001" green="0.1137254902" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qD7-d2-SpB" firstAttribute="centerX" secondItem="z9p-7D-HDY" secondAttribute="centerX" id="8aC-U2-oxp"/>
+                            <constraint firstItem="qD7-d2-SpB" firstAttribute="top" secondItem="3mY-PX-80L" secondAttribute="bottom" constant="20" id="Ber-Ww-khU"/>
+                            <constraint firstItem="Axu-L9-ZJp" firstAttribute="centerY" secondItem="z9p-7D-HDY" secondAttribute="centerY" id="Pjq-eO-gx6"/>
+                            <constraint firstItem="Axu-L9-ZJp" firstAttribute="centerX" secondItem="z9p-7D-HDY" secondAttribute="centerX" id="cKq-kf-J7V"/>
+                            <constraint firstItem="3qT-qz-JOn" firstAttribute="bottom" secondItem="qD7-d2-SpB" secondAttribute="bottom" constant="30" id="fZT-8a-TxF"/>
+                            <constraint firstItem="3mY-PX-80L" firstAttribute="centerX" secondItem="z9p-7D-HDY" secondAttribute="centerX" id="hvY-Gc-lYN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="3mY-PX-80L" id="IYF-an-Kcm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NN2-tG-Pjf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash/app_icon" width="1024" height="1024"/>
+    </resources>
+</document>
